@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-image: radial-gradient(circle, #234981, #0f69a2, #008abf, #00acd7, #12cfeb);
+}
+
+input[type=text] {
+    width: 60%;
+    padding: 5px 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 3px solid rgb(197, 209, 224);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+  
+input[type=text]:focus {
+    border: 3px solid rgb(59, 166, 228);
+}
+
+input[type=password] {
+    width: 60%;
+    padding: 5px 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 3px solid rgb(197, 209, 224);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+  
+input[type=password]:focus {
+    border: 3px solid rgb(59, 166, 228);
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    background-image: linear-gradient(to bottom, #4f97e0, #2987be, #12769b, #156379, #1e505a);
+    margin-top: 10%;
+    margin-left: 35%;
+    border-radius: 15px;
+}
+
+.text-menu-login{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color: white;
+    margin-left: 40%;
+}
+
+.text-menu-cadastro{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color: white;
+    margin-left: 35%;
+}
+
+.text-menu-r-senha{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color: white;
+    margin-left: 25%;
+}
+
+.container-login{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+.container-senha{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-left: 15%;
+    margin-top: 2%;
+}
+
+.container-email{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-left: 15%;
+    margin-top: 2%;
+}
+
+.container-celular{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-left: 15%;
+    margin-top: 2%;
+}
+
+.container-termos-registro{
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    color: white;
+    margin-left: 15%;
+    margin-top: 2%;
+}
+
+.container-email-recuperar{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-left: 15%;
+    margin-top: 25%;
+}
+
+.button-entrar{
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    margin-left: 60%;
+    margin-top: 2%;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #1d8db9; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.button-entrar:hover {
+    background-color:#3797bd;
+    transition: 0.5s;
+}
+
+.button-cadastro{
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    margin-left: 15%;
+    margin-top: 5%;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #1d8db9; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.button-cadastro:hover {
+    background-color:#3797bd;
+    transition: 0.5s;
+}
+
+.button-recuperar{
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    margin-left: 10%;
+    margin-top: 15%;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #1d8db9; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.button-recuperar:hover {
+    background-color:#3797bd;
+    transition: 0.5s;
+}
+
+.button-voltar{
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    margin-left: 1%;
+    margin-top: 10%;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #1d8db9; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.button-voltar:hover {
+    background-color:#3797bd;
+    transition: 0.5s;
+}
+
+
